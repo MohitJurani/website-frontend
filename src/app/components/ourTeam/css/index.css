@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul li {
+    list-style: none;
+    margin: 15px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: sans-serif;
+    font-size: 22px;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 0.5s;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    ul {
+      flex-direction: column;
+    }
+  }
+  
+  .navbar_main {
+    display: flex;
+    padding: 10px;
+  }
+  
+  .aboutUs_body {
+    background-color: #c852b2;
+    height: auto;
+    width: 100%;
+    color: #fff;
+  }
+  .boardOfDirectors_body {
+    background-color: #c852b2;
+    height: auto;
+    /* width: 100%; */
+    /* margin-top: -5px; */
+  }
+  .aboutUs_heading {
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  
+  .aboutUs_pragraph {
+    padding-right: 40px;
+    padding-left: 40px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .image_body img {
+    width: 100%;
+  }
+  
+  .user_img img {
+    border-radius: 120px;
+  }
+  
+  .top_people {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .boardOfDirectors_heading {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  .user_img p {
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .heading_studentLeaderShips {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  .heading_studentLeaderShips p {
+    font-weight: 700;
+  }
+  .leaderShipTeams_title {
+    place-content: space-around;
+    padding-left: 30px;
+    padding-right: 23px;
+  }
+  .leaderShipTeams_title li {
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  
+  .leaderShipTeams_persons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    place-content: space-around;
+  }
+  
+  .cycling_Person img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lower_color_image {
+    margin-top: -5px;
+  }
+  .lower_color_image img {
+    width: 100%;
+  }
+  .footer {
+    background-color: #4b4b4b;
+    /* width: 100%; */
+    /* height: 300px; */
+    /* margin-top: 0px; */
+    text-align: start;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .footer_content {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  .footer_content h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footer_content a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    /* font-weight: 700; */
+  }
+  .footer_content div {
+    margin-bottom: 20px;
+  }
+  .footer_content div {
+    display: grid;
+    margin-left: 10px;
+  }
+  
+  .copy-right {
+    /* margin-top: 120px; */
+    font-weight: bolder;
+  }
+  
